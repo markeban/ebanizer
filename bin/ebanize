@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
-puts "EBAN ON!"
-`say heres some eban`
+puts "Write me a name, phrase or sentence."
+word_phrase = gets.chomp
+`say eban#{word_phrase}izer`
 
-puts "Yeah!"
+`say Ebanization Complete`
+puts "Ebanization Complete"

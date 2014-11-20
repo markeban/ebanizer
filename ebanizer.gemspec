@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["markeban@yahoo.com"]
   spec.summary       = %q{This will Ebanize any app you throw its way. 100% Eban.}
   spec.description   = %q{Ebanize any object in the most efficient manner.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/markeban/ebanizer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
