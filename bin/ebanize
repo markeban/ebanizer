@@ -1,8 +1,14 @@
 #!/usr/bin/env ruby
 
+require 'twitter'
+
 puts "Write me a name, phrase or sentence."
 word_phrase = gets.chomp
 `say eban#{word_phrase}izer`
 
 `say Ebanization Complete`
 puts "Ebanization Complete"
+
+client.search("to:justinbieber marry me", result_type: "recent").take(3).collect do |tweet|
+  "#{tweet.user.screen_name}: #{tweet.text}"
+end
