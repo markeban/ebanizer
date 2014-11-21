@@ -18,6 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
+Module Name: Ebanizer
+Call Method: Ebanize
+
+for example:
+ @ebanize = Ebanizer::Ebanize.new.convert_e_to_eban(@text)
+
 Corrects serious flaws that lack Ebans, Eban-related code, and will leave you will 100% Eban compliant software.
 
 ## Contributing
